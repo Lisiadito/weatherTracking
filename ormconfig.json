@@ -1,0 +1,16 @@
+{
+   "type": "sqlite",
+   "database": "./DB",
+   "synchronize": false,
+   "logging": false,
+   "entities": [
+      "orm/entity/**/*.ts"
+   ],
+   "migrations": [
+      "orm/migration/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "orm/entity",
+      "migrationsDir": "orm/migration"
+   }
+}
